@@ -1,0 +1,31 @@
+/* styles */
+.tableOfContent {
+  position: sticky;
+  position: -webkit-sticky; /* for Safari */
+  top: 1em;
+}
+
+.mainBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.subMainBlock {
+  flex-direction: column;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;;
+}
+
+.pageStyles {
+  /* display: flex; */
+  color: "#232129";
+  padding: 96;
+  font-family: "-apple-system, Roboto, sans-serif, serif";
+}
+
+.name {
+  font-size: 90px;
+}
