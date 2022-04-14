@@ -9,7 +9,9 @@
 
 1.  **Run Gatsby site.**
     npm run develop
+
     If node is not the right version (error: %s, %s, %s): nvm use v16.14.2
+    
     If port 8000 is full: kill -9 $(lsof -i TCP:8000 | grep LISTEN | awk '{print $2}')
 
 2.  **Open the code and start customizing!**
